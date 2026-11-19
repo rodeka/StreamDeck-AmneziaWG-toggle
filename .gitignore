@@ -1,0 +1,6 @@
+*.conf
+*.conf.dpapi
+*.vpn
+*.backup
+/build/
+/.codex/

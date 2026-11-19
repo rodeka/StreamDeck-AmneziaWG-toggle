@@ -1,0 +1,40 @@
+{
+  "Author": "rodeka",
+  "Name": "AmneziaWG toggle",
+  "Description": "Control an AmneziaWG tunnel",
+  "Version": "0.1.1.0",
+  "UUID": "com.amneziawg.toggle",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "7.1"
+  },
+  "Nodejs": {
+    "Version": "24"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "CodePath": "plugin.mjs",
+  "Icon": "assets/icon",
+  "Category": "AmneziaWG",
+  "CategoryIcon": "assets/icon",
+  "PropertyInspectorPath": "inspector.html",
+  "Actions": [
+    {
+      "Name": "VPN tunnel",
+      "UUID": "com.amneziawg.toggle.toggle",
+      "Icon": "assets/icon",
+      "Tooltip": "Toggle an AmneziaWG tunnel",
+      "States": [
+        {
+          "Image": "assets/off",
+          "ShowTitle": false
+        }
+      ],
+      "SupportedInMultiActions": false
+    }
+  ]
+}
